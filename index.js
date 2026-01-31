@@ -32,7 +32,7 @@ const createZinaSession = async (amount, id) => {
     },
     body: JSON.stringify({
       amount,
-      currency_code: "USD",
+      currency_code: "SAR",
       success_url: serverURL + "zain/success/" + id,
       cancel_url: serverURL + "zain/cancel/" + id,
       failure_url: serverURL + "zain/cancel/" + id,
