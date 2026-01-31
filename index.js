@@ -18,8 +18,8 @@ const emailData = {
   // user: "saudiabsher1990@gmail.com",
   // pass: "qlkg nfnn xaeq fitz",
 };
-const serverURL = "http://localhost:8080/";
-// const serverURL = "https://betam-se-eowh.onrender.com";
+//const serverURL = "http://localhost:8080/";
+const serverURL = "https://tamn-ser.onrender.com";
 const ZinaAccessToken =
   "aVp3bd1/u/p7Z+FHqpn4iHXV+enZhWJMSu5w4SDGxjVpyayjVpBa+VEo6ZnIkI06";
 
