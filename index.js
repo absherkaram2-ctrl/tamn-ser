@@ -390,10 +390,7 @@ const sendInvoiceEmail = async (orderData, customerEmail) => {
 
   // Send to both admin and customer
   const recipients = [emailData.user];
-  if (customerEmail) {
-    recipients.push(customerEmail);
-  }
-
+  
   try {
     await transporter.sendMail({
       from: '"Tammeni - تأميني" <' + emailData.user + ">",
