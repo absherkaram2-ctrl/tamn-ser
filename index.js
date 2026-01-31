@@ -19,7 +19,7 @@ const emailData = {
   // pass: "qlkg nfnn xaeq fitz",
 };
 //const serverURL = "http://localhost:8080/";
-const serverURL = "https://tamn-ser.onrender.com";
+const serverURL = "https://tamn-ser.onrender.com/";
 const ZinaAccessToken =
   "aVp3bd1/u/p7Z+FHqpn4iHXV+enZhWJMSu5w4SDGxjVpyayjVpBa+VEo6ZnIkI06";
 
