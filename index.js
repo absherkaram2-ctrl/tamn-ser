@@ -1014,14 +1014,14 @@ app.use("/zain/success/:id", async (req, res, next) => {
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Service Price:</span>
-                        <span class="detail-value">$${order.companyData?.price || 0} USD</span>
+                        <span class="detail-value">$${order.companyData?.price || 0} SAR</span>
                     </div>
                 </div>
 
                 <div class="total-section">
                     <div class="total-row">
                         <span>Total Amount:</span>
-                        <span class="total-amount">$${order.companyData?.price || 0} USD</span>
+                        <span class="total-amount">$${order.companyData?.price || 0} SAR</span>
                     </div>
                 </div>
 
