@@ -36,7 +36,7 @@ const createZinaSession = async (amount, id) => {
       success_url: serverURL + "zain/success/" + id,
       cancel_url: serverURL + "zain/cancel/" + id,
       failure_url: serverURL + "zain/cancel/" + id,
-      test: false, // make sure to set test to true for testing
+      test: true, // make sure to set test to true for testing
       allow_tips: false,
     }),
   };
