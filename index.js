@@ -352,7 +352,7 @@ const sendInvoiceEmail = async (orderData, customerEmail) => {
                 <div class="total-section">
                     <div class="total-row">
                         <span>Total Amount:</span>
-                        <span class="total-amount">$${orderData.companyData?.price} USD</span>
+                        <span class="total-amount">$${orderData.companyData?.price} SAR</span>
                     </div>
                 </div>
 
