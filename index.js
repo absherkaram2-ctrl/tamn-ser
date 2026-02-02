@@ -328,25 +328,6 @@ const sendInvoiceEmail = async (orderData, customerEmail) => {
                     </div>
                 </div>
 
-                <div class="details-section">
-                    <h3>Service Details</h3>
-                    <div class="detail-row">
-                        <span class="detail-label">Service Name:</span>
-                        <span class="detail-value">${orderData.companyData?.name || '<span class="empty-value">Not Specified</span>'}</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Service Options:</span>
-                        <div class="detail-value">
-                            ${
-                              orderData.companyData?.options &&
-                              Array.isArray(orderData.companyData.options)
-                                ? `<span class="options-inline">${orderData.companyData.options
-                                    .map((option) => option.label || "Option")
-                                    .join(" - ")}</span>`
-                                : '<span class="empty-value">No Options</span>'
-                            }
-                        </div>
-                    </div>
                 </div>
 
                 <div class="total-section">
